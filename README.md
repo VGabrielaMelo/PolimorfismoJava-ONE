@@ -22,7 +22,7 @@
 * Encapsulamento
     - Dizemos que a aceleração do carro está encapsulada, pois sabemos o que ele vai fazer ao executarmos esse método, mas não sabemos como - e na verdade, não importa para o programa como o objeto o faz, só que ele o faça.
     - Esse encapsulamento de atributos e métodos impede o chamado vazamento de escopo, onde um atributo ou método é visível por alguém que não deveria vê-lo. Isso evita a confusão do uso de variáveis globais, deixando mais fácil de identificar em qual estado cada variável vai estar a cada momento do programa.
-    - https://www.alura.com.br/artigos/assets/poo-programacao-orientada-a-objetos/oop-car-methods-and-attributes.png
+    - ![image](https://www.alura.com.br/artigos/assets/poo-programacao-orientada-a-objetos/oop-car-methods-and-attributes.png)
 
 - Um atributo ou método que não é visível de fora do próprio objeto é chamado de "privado" e quando é visível, é chamado de "público".
     - ![image](https://www.alura.com.br/artigos/assets/poo-programacao-orientada-a-objetos/encapsulation.png)
