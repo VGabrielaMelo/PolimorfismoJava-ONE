@@ -1,5 +1,16 @@
 # Java 
-## 
+## Herança
+- Para aplicar a herança numa classe se usa a palavra reservada extends.
+    - EX.: public class Gerente extends FuncionarioPrincipal{}
+- Uma classe que herda outra tambem herda todas as caracteristica e comportamentos, mas não pode fazer uma instancia da classe que herdou.
+
+## Protected 
+- 
+
+## Super
+- 
+
+
 
 # Artigo "POO: o que é programação orientada a objetos?"
 - Como a maioria das atividades que fazemos no dia a dia, programar também possui modos diferentes de se fazer. Esses modos são chamados de paradigmas de programação e, entre eles, estão a programação orientada a objetos (POO) e a programação estruturada.
