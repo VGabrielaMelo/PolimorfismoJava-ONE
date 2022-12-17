@@ -10,6 +10,8 @@
 ## Super
 - 
 
+## Polimosfismo 
+- 
 
 
 # Artigo "POO: o que é programação orientada a objetos?"

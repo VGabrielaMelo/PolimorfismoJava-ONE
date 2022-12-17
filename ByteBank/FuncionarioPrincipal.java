@@ -1,5 +1,3 @@
-package ByteBank;
-
 public class FuncionarioPrincipal {
     private String nome;
     private String cpf;

@@ -1,5 +1,4 @@
-package ByteBank.Testes;
-
+package Testes;
 import ByteBank.FuncionarioPrincipal;
 
 public class TesteFuncionario {

@@ -1,5 +1,4 @@
-package ByteBank.Testes;
-
+package Testes;
 import ByteBank.Gerente;
 
 public class TesteGerente {

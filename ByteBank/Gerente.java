@@ -1,5 +1,3 @@
-package ByteBank;
-
 public class Gerente  extends FuncionarioPrincipal{
     private int senha;
 
