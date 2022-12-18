@@ -1,16 +1,16 @@
-public class FuncionarioPrincipal {
+package Banco;
+
+public abstract class FuncionarioPrincipal {
     private String nome;
     private String cpf;
     private double salario;
 
     // Construtor
-    public FuncionarioPrincipal() {
-    }
+    // public FuncionarioPrincipal() {
+    // }
 
     // Metodos
-    public double getBonificacao() {
-        return this.salario * 0.3;
-    }
+    public abstract double getBonificacao();
 
     public String getNome() {
         return nome;

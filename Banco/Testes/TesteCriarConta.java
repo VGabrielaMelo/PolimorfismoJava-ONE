@@ -1,4 +1,8 @@
-public class CriarConta {
+package Banco.Testes;
+
+import Banco.ContaPrincipal;
+
+public class TesteCriarConta {
     public static void main(String[] args) {
         ContaPrincipal primeiraConta = new ContaPrincipal(6646,969060);
         primeiraConta.depositar(200);

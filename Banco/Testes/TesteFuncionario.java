@@ -1,9 +1,9 @@
-package Testes;
-import ByteBank.FuncionarioPrincipal;
+package Banco.Testes;
+import Banco.TiposdeFuncionarios.Gerente;
 
 public class TesteFuncionario {
     public static void main(String[] args) {
-        FuncionarioPrincipal gabi = new FuncionarioPrincipal();
+        Gerente gabi = new Gerente(); //FuncionarioPrincipal(); por ser uma classe abstrata não pode mais ser usada.
         gabi.setNome("Gabriela Melo");
         gabi.setCpf("2222");
         gabi.setSalario(1333.65);

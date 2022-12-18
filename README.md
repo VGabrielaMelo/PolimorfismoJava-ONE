@@ -3,6 +3,12 @@
 - Para aplicar a herança numa classe se usa a palavra reservada extends.
     - EX.: public class Gerente extends FuncionarioPrincipal{}
 - Uma classe que herda outra tambem herda todas as caracteristica e comportamentos, mas não pode fazer uma instancia da classe que herdou.
+- Você tem criar ou reescrever o construtor, ele não pode ser herdado.
+- O construtor da classe mão pode ser chamado com super().
+
+## @Override
+- Ctrl + Espaço
+- Para reescrever metodos da classe herdada.
 
 ## Protected 
 - 
@@ -12,6 +18,12 @@
 
 ## Polimosfismo 
 - 
+
+## Classe Abstratas 
+- Uma classe abstrata representa um conceito, algo abstrato, e o compilador não permite instanciar um objeto dessa classe. Para instanciar é preciso criar primeiro uma classe filha não abstrata.
+
+## Métodos Abstratos
+- Não tem um corpo
 
 
 # Artigo "POO: o que é programação orientada a objetos?"

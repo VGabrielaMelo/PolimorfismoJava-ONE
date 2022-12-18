@@ -1,6 +1,6 @@
-package Testes;
-import ByteBank.FuncionarioPrincipal;
-import ByteBank.Gerente;
+package Banco.Testes;
+import Banco.FuncionarioPrincipal;
+import Banco.TiposdeFuncionarios.Gerente;
 
 public class TesteReferencias {
     public static void main(String[] args) {
