@@ -1,7 +1,7 @@
-package Banco.Testes;
+package Testes;
 
-import Banco.TiposdeConta.ContaCorrente;
-import Banco.TiposdeConta.ContaPoupanca;
+import TiposdeConta.ContaCorrente;
+import TiposdeConta.ContaPoupanca;
 
 public class TesteContas {
     public static void main(String[] args) {

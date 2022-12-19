@@ -1,6 +1,6 @@
-package Banco.TiposdeFuncionarios;
+package TiposdeFuncionarios;
 
-import Banco.FuncionarioPrincipal;
+import Base.FuncionarioPrincipal;
 
 public class EditorVideo extends FuncionarioPrincipal {
     public double getBonificacao() {

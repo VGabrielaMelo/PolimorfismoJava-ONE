@@ -1,5 +1,5 @@
-package Banco.Testes;
-import Banco.TiposdeFuncionarios.Gerente;
+package Testes;
+import TiposdeFuncionarios.Gerente;
 
 public class TesteGerente {
     public static void main(String[] args) {

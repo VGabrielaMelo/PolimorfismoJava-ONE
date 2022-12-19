@@ -1,5 +1,5 @@
-package Banco.TiposdeConta;
-import Banco.ContaPrincipal;
+package TiposdeConta;
+import Base.ContaPrincipal;
 
 
 public class ContaPoupanca extends ContaPrincipal {

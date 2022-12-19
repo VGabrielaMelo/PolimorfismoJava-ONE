@@ -1,6 +1,6 @@
-package Banco.Testes;
-import Banco.FuncionarioPrincipal;
-import Banco.TiposdeFuncionarios.Gerente;
+package Testes;
+import Base.FuncionarioPrincipal;
+import TiposdeFuncionarios.Gerente;
 
 public class TesteReferencias {
     public static void main(String[] args) {

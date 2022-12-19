@@ -1,5 +1,5 @@
-package Banco.TiposdeFuncionarios;
-import Banco.FuncionarioPrincipal;
+package TiposdeFuncionarios;
+import Base.FuncionarioPrincipal;
 
 public class Designer extends FuncionarioPrincipal{
     public double getBonificacao() {

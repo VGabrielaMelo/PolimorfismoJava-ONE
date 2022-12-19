@@ -1,5 +1,4 @@
-package Banco;
-
+package Base;
 public abstract class FuncionarioPrincipal {
     private String nome;
     private String cpf;

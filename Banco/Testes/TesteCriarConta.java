@@ -1,6 +1,6 @@
-package Banco.Testes;
+package Testes;
 
-import Banco.ContaPrincipal;
+import Base.ContaPrincipal;
 
 public class TesteCriarConta {
     public static void main(String[] args) {

@@ -1,5 +1,4 @@
-package Banco;
-
+package Base;
 public class ContaPrincipal {
     private double saldo = 0.0;
     private int agencia;

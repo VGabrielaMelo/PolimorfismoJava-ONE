@@ -1,5 +1,4 @@
-package Banco;
-
+package Base;
 public class ControleBonificacao {
     private double soma;
 
