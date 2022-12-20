@@ -1,5 +1,5 @@
 # Java 
-- Não faz herança multipla
+- Não faz herança multipla, as interfaces ajudam nessa questão, pois bem se sabe que uma classe pode ser herdada apenas uma vez, mas pode implementar inúmeras interfaces
 
 ## Herança
 - Para aplicar a herança numa classe se usa a palavra reservada extends.
@@ -8,29 +8,29 @@
 - Você tem criar ou reescrever o construtor, ele não pode ser herdado.
 - O construtor da classe mão pode ser chamado com super().
 
-
 ## @Override
 - Ctrl + Espaço
-- Para reescrever metodos da classe herdada.
+- Indica ao compilador que a classe filha está sobrescrevendo aquele método da classe herdada e não criando um novo.
 
 ## Protected 
-- 
+- O protected é um intermediário entre public e private.
+- O modificador protected torna o membro acessível às classes do mesmo pacote ou através de herança, seus membros herdados não são acessíveis a outras classes fora do pacote em que foram declarados.
+Permite acesso para as classes filhas, mas proíbe a qualquer outro acesso externo.
 
 ## Super
-- 
-
-## Polimosfismo 
-- 
+- O super() serve para chamar o construtor da superclasse. Ele sempre é chamado, mesmo quando não está explícito no código, quando for explicitado deve ser o primeiro item dentro do construtor.
 
 ## Classe Abstratas 
+- Servem como “modelo” para outras classes que dela herdem, não podendo ser instanciada por si só. Para ter um objeto de uma classe abstrata é necessário criar uma classe mais especializada herdando dela e então instanciar essa nova classe. Os métodos da classe abstrata devem então serem sobrescritos nas classes filhas.
 - Uma classe abstrata representa um conceito, algo abstrato, e o compilador não permite instanciar um objeto dessa classe. Para instanciar é preciso criar primeiro uma classe filha não abstrata.
 
 ## Métodos Abstratos
 - Não tem um corpo
 
 ## Interface
-- Uma classe abstrata com metodos abstratos
-- Usar a palavra reservada Implements
+- As interfaces são padrões definidos através de contratos ou especificações. Um contrato define um determinado conjunto de métodos que serão implementados nas classes que assinarem esse contrato.
+- Uma interface é definida através da palavra reservada “interface”. Para uma classe implementar uma interface é usada a palavra “implements”,
+- As classes que forem implementar uma interface terão de adicionar todos os métodos da interface ou se transformar em uma classe abstrata
 
 # Artigo "POO: o que é programação orientada a objetos?"
 - Como a maioria das atividades que fazemos no dia a dia, programar também possui modos diferentes de se fazer. Esses modos são chamados de paradigmas de programação e, entre eles, estão a programação orientada a objetos (POO) e a programação estruturada.
