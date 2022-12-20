@@ -1,27 +1,47 @@
 package Base;
-public class Cliente {
+import Sistema.AutenticacaoUtil;
+import Sistema.Autenticavel;
+
+public class Cliente implements Autenticavel {
+    // private int senha;
+
+    private AutenticacaoUtil autenticador;
+    
     private String nome;
     private String cpf;
-    private String rg;
+    private String profissao;
 
     public String getNome() {
-        return this.nome;
+        return nome;
     }
     public void setNome(String nome) {
         this.nome = nome;
     }
-    
     public String getCpf() {
-        return this.cpf;
+        return cpf;
     }
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
-    
-    public String getRg() {
-        return this.rg;
+    public String getProfissao() {
+        return profissao;
     }
-    public void setRg(String rg) {
-        this.rg = rg;
+    public void setProfissao(String profissao) {
+        this.profissao = profissao;
     }
+
+
+	public Cliente() {
+		this.autenticador = new AutenticacaoUtil();
+	}
+	
+	@Override
+	public void setSenha(int senha) {
+		this.autenticador.setSenha(senha);
+	}
+
+	@Override
+	public boolean autentica(int senha) {
+		return this.autenticador.autentica(senha);
+	} 
 }

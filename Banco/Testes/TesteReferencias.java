@@ -1,14 +1,26 @@
 package Testes;
-import Base.FuncionarioPrincipal;
+import Sistema.ControleBonificacao;
+import TiposdeFuncionarios.Designer;
+import TiposdeFuncionarios.EditorVideo;
 import TiposdeFuncionarios.Gerente;
 
 public class TesteReferencias {
     public static void main(String[] args) {
-        FuncionarioPrincipal g1 = new Gerente();
-
-        g1.setNome("Gabriela Melo");
-        String nome = g1.getNome();
-        
-        System.out.println(nome);
+        Gerente g1 = new Gerente();
+		g1.setNome("Marcos");
+		g1.setSalario(5000.0);
+	
+		EditorVideo ev = new EditorVideo();
+		ev.setSalario(2500.0);
+		
+		Designer d = new Designer();
+		d.setSalario(2000.0);
+		
+		ControleBonificacao controle = new ControleBonificacao();
+		controle.registra(g1);
+		controle.registra(ev);
+		controle.registra(d);
+		
+		System.out.println(controle.getSoma());
     }
 }

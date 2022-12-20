@@ -1,4 +1,6 @@
-package Base;
+package Sistema;
+import Base.FuncionarioPrincipal;
+
 public class ControleBonificacao {
     private double soma;
 

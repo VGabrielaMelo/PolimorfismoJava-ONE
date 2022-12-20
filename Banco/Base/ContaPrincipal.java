@@ -1,6 +1,6 @@
 package Base;
-public class ContaPrincipal {
-    private double saldo = 0.0;
+public abstract class ContaPrincipal {
+    private double saldo;
     private int agencia;
     private int numeroConta;
     private Cliente nomeTitular; 
@@ -11,6 +11,9 @@ public class ContaPrincipal {
         ContaPrincipal.total++;
         this.agencia = agencia;
         this.numeroConta = numeroConta;
+        this.saldo = 100;
+
+        System.out.println("O total de contas é " + ContaPrincipal.total);
     }
     
     // Metodo

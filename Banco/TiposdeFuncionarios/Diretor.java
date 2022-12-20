@@ -1,8 +1,24 @@
 package TiposdeFuncionarios;
+import Base.FuncionarioPrincipal;
+import Sistema.Autenticavel;
 
-import Base.FuncionarioAutenticavel;
+public class Diretor extends FuncionarioPrincipal implements Autenticavel {
+    private int senha;
 
-public class Diretor extends FuncionarioAutenticavel {
+    @Override
+    public void setSenha(int senha) {
+        this.senha = senha;
+    }
+
+    @Override
+    public boolean autentica(int senha) {
+        if (this.senha == senha) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     @Override
     public double getBonificacao() {
         System.out.println("Procurando bonificaão do cargo gerente");

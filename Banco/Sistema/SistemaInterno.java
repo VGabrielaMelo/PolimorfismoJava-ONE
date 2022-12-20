@@ -1,9 +1,9 @@
-package Base;
+package Sistema;
 
 public class SistemaInterno {
     private int senha = 123456;
 
-    public void autentica(FuncionarioAutenticavel fa) {
+    public void autentica(Autenticavel fa) {
         boolean autenticou = fa.autentica(this.senha);
         if (autenticou) {
             System.out.println("Pode acessar o sistema");
