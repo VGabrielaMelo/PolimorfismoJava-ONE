@@ -55,7 +55,9 @@ Simplesmente passamos a informação - na forma de Objeto - para outro Objeto, e
 - A programação orientada a objetos surgiu como uma alternativa a essas características da programação estruturada. O intuito da sua criação também foi o de aproximar o manuseio das estruturas de um programa ao manuseio das coisas do mundo real, daí o nome "objeto" como uma algo genérico, que pode representar qualquer coisa tangível. Esse novo paradigma se baseia principalmente em dois conceitos chave: classes e objetos. 
 
 ## Classes VS Objetos
-![image](https://www.alura.com.br/artigos/assets/poo-programacao-orientada-a-objetos/class-analogy.png)
+<p align="center" >
+    <img width="400" heigth="400" src="https://www.alura.com.br/artigos/assets/poo-programacao-orientada-a-objetos/class-analogy.png">
+</p>
 
 ## Principais características da POO
 * Encapsulamento
@@ -66,7 +68,9 @@ Simplesmente passamos a informação - na forma de Objeto - para outro Objeto, e
     </p>
 
 - Um atributo ou método que não é visível de fora do próprio objeto é chamado de "privado" e quando é visível, é chamado de "público".
-![image](https://www.alura.com.br/artigos/assets/poo-programacao-orientada-a-objetos/encapsulation.png)
+<p align="center" >
+    <img width="400" heigth="400" src="https://www.alura.com.br/artigos/assets/poo-programacao-orientada-a-objetos/encapsulation.png">
+</p>
 
 * Herança 
     - A ideia por trás da herança de classes em Java, é que você pode criar novas classes construídas sobre classes já existentes. Portanto, ao herdar de uma classe existente, você pode reutilizar métodos e atributos da classe pai, não sendo eles privados. Além disso, você também pode adicionar novos métodos e campos em sua classe atual.
