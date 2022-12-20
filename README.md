@@ -35,6 +35,7 @@ Permite acesso para as classes filhas, mas proíbe a qualquer outro acesso exter
 ## Composição 
 - É instanciar, ou usar, uma classe/objeto em outra(o). É como se elas se comunicassem, trocassem informações. Ou seja, serve para reutilizar dados, sem ter que criar mais código pra isso.
 Simplesmente passamos a informação - na forma de Objeto - para outro Objeto, e este se encarrega de obter os dados e como trabalhar em cima dele.
+![imagem](imgReadMe\image.png)
 
 # Artigo "POO: o que é programação orientada a objetos?"
 - Como a maioria das atividades que fazemos no dia a dia, programar também possui modos diferentes de se fazer. Esses modos são chamados de paradigmas de programação e, entre eles, estão a programação orientada a objetos (POO) e a programação estruturada.
